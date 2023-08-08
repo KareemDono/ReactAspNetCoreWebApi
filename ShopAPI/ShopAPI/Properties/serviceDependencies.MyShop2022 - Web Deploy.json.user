@@ -1,0 +1,48 @@
+{
+  "dependencies": {
+    "apis1": {
+      "restored": true,
+      "restoreTime": "2023-08-04T12:33:42.6136693Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2023-08-04T12:45:58.9383169Z"
+    },
+    "storage1": {
+      "restored": true,
+      "restoreTime": "2023-08-06T10:57:18.8213849Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "c1197ae0-4f34-4c95-864b-73fb977bdcfc"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "MyShop"
+    },
+    "storage1.resourceGroupName": {
+      "Name": "storage1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "MyShop"
+    },
+    "apis1.resourceGroupName": {
+      "Name": "apis1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "MyShop"
+    },
+    "apis1.subscriptionId": {
+      "Name": "apis1.subscriptionId",
+      "Type": "subscription",
+      "Value": "c1197ae0-4f34-4c95-864b-73fb977bdcfc"
+    },
+    "storage1.subscriptionId": {
+      "Name": "storage1.subscriptionId",
+      "Type": "subscription",
+      "Value": "c1197ae0-4f34-4c95-864b-73fb977bdcfc"
+    }
+  }
+}

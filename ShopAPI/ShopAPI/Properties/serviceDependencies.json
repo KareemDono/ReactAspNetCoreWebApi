@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "apis1": {
+      "type": "apis"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:MyShop",
+      "dynamicId": null
+    },
+    "storage1": {
+      "type": "storage",
+      "connectionId": "DefaultEndpointsProtocol=https;AccountName=productimages4262;AccountKey=LMy3zP2J7tLXfznekJ+QJChWO68Udrn5MvX7wO3qV6sArEufk0y0/NjPJxJ7/C1r/3gyWrjZjQG++ASt1Ikhaw==;EndpointSuffix=core.windows.net",
+      "dynamicId": null
+    }
+  }
+}

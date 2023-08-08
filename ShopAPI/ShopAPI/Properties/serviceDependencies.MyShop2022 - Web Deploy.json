@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/ShopAPIapi/apis/ShopAPI",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/MyShop2022/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsMyShop_7D9757F9F1",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/shopreactapi2022/databases/ShopAPI_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:MyShop",
+      "dynamicId": null
+    },
+    "storage1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/MyShop2022/providers/Microsoft.ServiceLinker/linkers/DefaultEndpointsProtocolhttpsAccountName_727F2D8631, /subscriptions/c1197ae0-4f34-4c95-864b-73fb977bdcfc/resourceGroups/MyShop/providers/Microsoft.Web/sites/MyShop2022/providers/Microsoft.ServiceLinker/linkers/DefaultEndpointsProtocolhttpsAccountName_D4CE381306",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/productimages4262",
+      "type": "storage.azure",
+      "connectionId": "DefaultEndpointsProtocol=https;AccountName=productimages4262;AccountKey=LMy3zP2J7tLXfznekJ+QJChWO68Udrn5MvX7wO3qV6sArEufk0y0/NjPJxJ7/C1r/3gyWrjZjQG++ASt1Ikhaw==;EndpointSuffix=core.windows.net",
+      "dynamicId": null
+    }
+  }
+}
